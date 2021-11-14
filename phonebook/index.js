@@ -43,6 +43,12 @@ app.post('/api/persons', (request, response) => {
         })
     }
 
+    if (numbers.find(number => number.name === body.name)){
+        return response.status(400).json({
+            error: 'name must be unique'
+        })
+    }
+
     const newContact = {
         name: body.name,
         number: body.number,
