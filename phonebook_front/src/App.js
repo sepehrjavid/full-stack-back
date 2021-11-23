@@ -38,6 +38,12 @@ const App = () => {
                 setTimeout(() => {
                     setMessage(null)
                 }, 5000)
+            }).catch(error => {
+                setMessage(error.response.data.error);
+                setNotifClassName("error");
+                setTimeout(() => {
+                    setMessage(null)
+                }, 5000)
             })
         } else {
             let updatingPerson = persons.filter((person) => person.name === newName)[0];
@@ -56,8 +62,8 @@ const App = () => {
                 setTimeout(() => {
                     setMessage(null)
                 }, 5000)
-            }).catch((err) => {
-                setMessage(`Information of ${newName} has already been removed`);
+            }).catch((error) => {
+                setMessage(error.response.data.error);
                 setNotifClassName("error");
                 setTimeout(() => {
                     setMessage(null)

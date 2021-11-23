@@ -4,8 +4,7 @@
     <list default="true" id="0b42fad1-443c-40e4-857e-9184d543254b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../phonebook_front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../phonebook_front/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +29,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,6 +76,7 @@
       <workItem from="1637246411925" duration="937000" />
       <workItem from="1637678006012" duration="1055000" />
       <workItem from="1637702783503" duration="2172000" />
+      <workItem from="1637706270069" duration="604000" />
     </task>
     <servers />
   </component>
