@@ -15,7 +15,7 @@ const remove = (person_id) => {
 };
 
 const update = (person_id, new_number) => {
-    return axios.patch(baseUrl + "/" + person_id, {number: new_number})
+    return axios.put(baseUrl + "/" + person_id, {number: new_number})
 };
 
 export {
