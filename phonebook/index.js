@@ -66,14 +66,15 @@ app.post('/api/persons', (request, response) => {
         })
     }
 
-    const newContact = {
+    const newContact = new Contact({
         name: body.name,
         number: body.number,
-        id: generateId()
-    };
+    });
 
-    numbers = numbers.concat(newContact);
-    response.json(newContact)
+    newContact.save().then((savedContact) => {
+        numbers = numbers.concat(savedContact);
+        response.json(savedContact)
+    });
 });
 
 
