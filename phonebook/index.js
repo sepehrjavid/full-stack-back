@@ -42,9 +42,6 @@ let numbers = [
     }
 ];
 
-function generateId() {
-    return Math.floor(Math.random() * 1000);
-}
 
 app.post('/api/persons', (request, response) => {
     const body = request.body;
@@ -95,9 +92,10 @@ app.get('/api/persons/:id', (request, response) => {
 });
 
 app.delete('/api/persons/:id', (request, response) => {
-    const id = Number(request.params.id);
-    numbers = numbers.filter(contact => contact.id !== id);
-    response.status(204).end()
+    Contact.findByIdAndRemove(request.params.id)
+        .then(result => {
+            response.status(204).end()
+        });
 });
 
 app.get('/info', (request, response) => {
