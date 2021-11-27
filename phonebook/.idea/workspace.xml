@@ -3,8 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="0b42fad1-443c-40e4-857e-9184d543254b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../phonebook_front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../phonebook_front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.6cc70d7d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.6cc70d7d.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.6f9a0c02.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.6f9a0c02.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../phonebook_front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../phonebook_front/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../phonebook_front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../phonebook_front/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../phonebook_front/build/static/js/main.6f9a0c02.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../phonebook_front/build/static/js/main.6f9a0c02.chunk.js.map" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +86,9 @@
       <workItem from="1637246411925" duration="937000" />
       <workItem from="1637678006012" duration="1055000" />
       <workItem from="1637702783503" duration="2172000" />
-      <workItem from="1637706270069" duration="604000" />
+      <workItem from="1637706270069" duration="881000" />
+      <workItem from="1638008623999" duration="285000" />
+      <workItem from="1638009300137" duration="388000" />
     </task>
     <servers />
   </component>
