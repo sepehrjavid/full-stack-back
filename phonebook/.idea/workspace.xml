@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0b42fad1-443c-40e4-857e-9184d543254b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.6cc70d7d.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.6cc70d7d.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.6f9a0c02.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.6f9a0c02.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../phonebook_front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../phonebook_front/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../phonebook_front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../phonebook_front/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../phonebook_front/build/static/js/main.6f9a0c02.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../phonebook_front/build/static/js/main.6f9a0c02.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +43,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.lint">
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -66,6 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.lint" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -88,7 +89,9 @@
       <workItem from="1637702783503" duration="2172000" />
       <workItem from="1637706270069" duration="881000" />
       <workItem from="1638008623999" duration="285000" />
-      <workItem from="1638009300137" duration="388000" />
+      <workItem from="1638009300137" duration="624000" />
+      <workItem from="1638010504287" duration="158000" />
+      <workItem from="1638010952320" duration="107000" />
     </task>
     <servers />
   </component>
